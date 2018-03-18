@@ -1,5 +1,7 @@
 """
 Brute Force
+Time complexity O(n^2)
+space O(1)
 """
 class Solution(object):
     def twoSum(self, nums, target):
@@ -13,4 +15,3 @@ class Solution(object):
                 if nums[i] + nums[j] == target :
                     return (i,j)
                     
-            
